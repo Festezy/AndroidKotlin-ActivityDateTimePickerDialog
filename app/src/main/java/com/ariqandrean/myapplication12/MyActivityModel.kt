@@ -1,3 +1,3 @@
-package com.ariqandrean.myapplication12
+package com.example.projectsqlitewithtimepicker
 
 data class MyActivityModel(val id: Int, val time: String, val description: String)
