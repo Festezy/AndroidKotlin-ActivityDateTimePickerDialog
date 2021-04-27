@@ -1,4 +1,4 @@
-package com.example.projectsqlitewithtimepicker
+package com.ariqandrean.myapplication12
 
 
 import android.content.Context
@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.ariqandrean.myapplication12.R
 import kotlinx.android.synthetic.main.item_row.view.*
 
 class ItemAdapter(val context: Context, val items: ArrayList<MyActivityModel>) : RecyclerView.Adapter<ItemAdapter.ViewHolder>() {

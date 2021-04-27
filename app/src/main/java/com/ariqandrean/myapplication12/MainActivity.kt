@@ -1,10 +1,10 @@
-package com.example.projectsqlitewithtimepicker
+package com.ariqandrean.myapplication12
 
+import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.app.Dialog
 import android.app.TimePickerDialog
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
 import android.view.View
@@ -12,14 +12,14 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.DatePicker
 import android.widget.TimePicker
 import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ariqandrean.myapplication12.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.dialog_update.*
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.math.min
+import kotlin.collections.ArrayList
+
 
 class MainActivity : AppCompatActivity() {
     var cal = Calendar.getInstance()
